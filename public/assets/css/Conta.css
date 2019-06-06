@@ -1,0 +1,25 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#foto {
+    margin-top: 2px;
+    margin-left: 45px;
+    position: absolute;
+}
+
+th, .hora {
+    text-align: center;
+}
